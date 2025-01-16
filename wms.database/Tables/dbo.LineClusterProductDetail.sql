@@ -1,0 +1,12 @@
+CREATE TABLE dbo.LineClusterProductDetail 
+(
+	ID INT NOT NULL IDENTITY(1, 1),
+	LineClusterProductID INT NOT NULL,
+	MachineID INT NOT NULL,
+	CreatedUser INT NOT NULL,
+	CreatedDate DATETIME NOT NULL DEFAULT(GETDATE()),
+	UpdatedUser INT NOT NULL,
+	UpdatedDate DATETIME NOT NULL DEFAULT(GETDATE()),
+	IsDeleted BIT NOT NULL DEFAULT(0),
+	CONSTRAINT PK_LineClusterProductDetail PRIMARY KEY CLUSTERED (ID)
+);

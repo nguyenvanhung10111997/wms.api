@@ -1,0 +1,8 @@
+services:
+    wms.api.uat:
+        image: johnnguyendeveloper/wms.api.uat
+        environment:
+          - DOCKER_USERNAME=johnnguyendeveloper
+          - DOCKER_PASSWORD=ankhung123
+        ports:
+          - 80:8000

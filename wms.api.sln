@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wms.api", "wms.api\wms.api.csproj", "{531F85EE-B312-475B-AE51-D2F2B74ABA18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wms.infrastructure", "wms.infrastructure\wms.infrastructure.csproj", "{AA389136-EBC0-43B2-9ED7-3DDCBDFBE10F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C5F6ABCD-D2CD-4540-BBFD-B6D4F9836B70}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wms.business", "wms.business\wms.business.csproj", "{B7E60898-230F-4366-92D5-0ABAA5EA950C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wms.dto", "wms.dto\wms.dto.csproj", "{0321F4CB-D187-4592-B525-C2A4C53B0ACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{531F85EE-B312-475B-AE51-D2F2B74ABA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531F85EE-B312-475B-AE51-D2F2B74ABA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531F85EE-B312-475B-AE51-D2F2B74ABA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531F85EE-B312-475B-AE51-D2F2B74ABA18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA389136-EBC0-43B2-9ED7-3DDCBDFBE10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA389136-EBC0-43B2-9ED7-3DDCBDFBE10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA389136-EBC0-43B2-9ED7-3DDCBDFBE10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA389136-EBC0-43B2-9ED7-3DDCBDFBE10F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E60898-230F-4366-92D5-0ABAA5EA950C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E60898-230F-4366-92D5-0ABAA5EA950C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E60898-230F-4366-92D5-0ABAA5EA950C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E60898-230F-4366-92D5-0ABAA5EA950C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0321F4CB-D187-4592-B525-C2A4C53B0ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0321F4CB-D187-4592-B525-C2A4C53B0ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0321F4CB-D187-4592-B525-C2A4C53B0ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0321F4CB-D187-4592-B525-C2A4C53B0ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E65F608E-B2CA-420F-A2DE-909DBF9485ED}
+	EndGlobalSection
+EndGlobal
